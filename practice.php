@@ -2,7 +2,7 @@
 //PHP/Laravel 03 課題
 //課題1
 $name = "kuroda";
-if ($name ==$name){
+if ($name == "kuroda"){
     echo "私は　あなたの　名前です";
 }else{
     "あなたの名前ではありません";
@@ -10,7 +10,7 @@ if ($name ==$name){
 echo "\n";
 
 //課題2
-for ($i=0; $i < 10000; $i++){
+for ($i=0; $i <= 10000; $i++){
     $total +=$i;
 }
 echo $total;
@@ -19,8 +19,8 @@ echo "\n";
 //課題3
 $fruits = array("梨", "みかん","ぶどう","ライチ","桃");
 
-foreach($fruits as $fruits){
-    echo $fruits;
+foreach($fruits as $kudamono){
+    echo $kudamono;
     echo "\n";
 }
 
